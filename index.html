@@ -18,6 +18,18 @@
             scroll-behavior: smooth;
             background: linear-gradient(to right, powderblue, white);
             color:black; 
+            padding-top: 60px; 
+        }
+
+        header{
+            position: fixed;
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            background-color: transparent; 
+            padding: 10px 20px; 
+            z-index: 1000; 
+            text-align: left; 
         }
 
         section{
@@ -27,6 +39,20 @@
             align-items:center;
             flex-direction: column; 
             transform: translateY(-70px);
+        }
+
+        .nav-links{
+            list-style: none;
+            padding: 0; 
+            margin: 0; 
+            display: flex; 
+            flex-direction: row;
+            align-items: center; 
+
+        }
+
+        .nav-links li{
+            margin-right: 20px; 
         }
 
         .home{
