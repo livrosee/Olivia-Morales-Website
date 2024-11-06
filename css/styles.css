@@ -14,7 +14,7 @@ header{
     top: 0; 
     left: 0; 
     width: 100%;
-    background-color: transparent;
+    background: linear-gradient(to right, powderblue, white);
     padding: 10px 20px; 
     z-index: 1000; 
     text-align: left; 
@@ -53,11 +53,11 @@ header{
 
 section{
     height: 100vh;
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items:center;
+    flex-direction: column; 
+    transform: translateY(-70px);
 }
 
 h1{
