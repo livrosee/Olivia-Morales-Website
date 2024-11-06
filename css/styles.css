@@ -24,7 +24,7 @@ header{
     list-style: none;
     padding: 0; 
     margin: 0; 
-    display: felx; 
+    display: flex; 
     flex-direction: row;
     align-items: center;
 }
